@@ -1,8 +1,8 @@
 import Router from '@koa/router';
 
-import * as users from './app/users.js';
-import * as hunches from './app/hunches.js';
-import * as games from './app/games.js';
+import * as users from './users.js';
+import * as hunches from './hunches.js';
+import * as games from './games.js';
 
 export const router = new Router();
 
