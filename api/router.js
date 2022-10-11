@@ -15,8 +15,8 @@ router.post('/hunches', hunches.create);
 
 router.get('/games', games.list);
 
-router.get('/', async (ctx) => {
-    ctx.body = { msg: 'Hello World!!!' };
-});
+// router.get('/', async (ctx) => {
+//     ctx.body = { msg: 'Hello World!!!' };
+// });
 
 router.get('/:username', users.hunchesList);
